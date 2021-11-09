@@ -1,8 +1,24 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Suspense, useCallback, useEffect, useState } from 'react'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  const [secret, setSecret] = useState(null)
+  const [hash, setHash] = useState(null)
+  const onChange = useCallback((e) => {
+    setSecret(e.target.value)
+  }, [])
+  useEffect(() => {
+    const hash$ = !secret
+      ? Promise.resolve('Null')
+      : fetch(`/api/hello?secret=${secret}`)
+          .then((res) => res.json())
+          .then((res) => res.hash)
+    hash$.then((h) => {
+      setHash(h)
+    })
+  }, [secret])
   return (
     <div className={styles.container}>
       <Head>
@@ -17,9 +33,10 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          <label htmlFor="secret">Secret: </label>
+          <input id="secret" onChange={onChange} style={{ fontSize: 20 }} />
         </p>
+        <code style={{ color: 'hotpink', fontSize: 20 }}>{hash}</code>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>

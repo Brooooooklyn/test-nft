@@ -114,6 +114,84 @@
   resolved "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
+"@napi-rs/blake-hash-android-arm64@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-android-arm64/-/blake-hash-android-arm64-1.1.0.tgz#0740e4a4009355622ef5e0398e020cc5c29d935f"
+  integrity sha512-2tyvC+MN/Ttiaq03MifEYEYNTde8drXBBVns/bEUZkznm2Q72bXLx1tMBU1ClAxLzzOBs0U5YcBtSrI42z8JYQ==
+
+"@napi-rs/blake-hash-darwin-arm64@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-darwin-arm64/-/blake-hash-darwin-arm64-1.1.0.tgz#9f252e2308d1ee4f4af0237656c6464462731a38"
+  integrity sha512-x1sQyhI4r9PL28VG5vH/gc2mdCqLqqLk7mD/G6G3MlPOXkMYy1YgRI5V6UYWHLBiSBuav2PRHhxftf79W9EqTA==
+
+"@napi-rs/blake-hash-darwin-x64@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-darwin-x64/-/blake-hash-darwin-x64-1.1.0.tgz#342829253dadfbea3ddb5d4567782f752949d467"
+  integrity sha512-Wft/eC/cjtQ54N3SYh2h/tV/k6JX3N9syvd6DS8PJrMohXDWJ6inzEIPcvktW1FMJ+L362bqJak+hNP46zUHyg==
+
+"@napi-rs/blake-hash-freebsd-x64@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-freebsd-x64/-/blake-hash-freebsd-x64-1.1.0.tgz#bac4c9b9bc856d1e3889aa44c24d9ba5610a1399"
+  integrity sha512-w5x/5jNkrv6LQza/jPVSr+9E1kBmOHvJEullViRW+LcquOaR9HrNdgIvocyrCKGPlnGzy2291mxecKW4ws0Mdw==
+
+"@napi-rs/blake-hash-linux-arm-gnueabihf@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-linux-arm-gnueabihf/-/blake-hash-linux-arm-gnueabihf-1.1.0.tgz#3ea8d844ae4bb2f37576321d385a2c0c9c60f91f"
+  integrity sha512-NtoyyqH2+d8iyWUscj67R8SfWJOpXK9IpZP9nbFxXF2Io6U+jAGncQZrJhUp2zvOc+wHgX9kbQqjJ2zp+lkt0w==
+
+"@napi-rs/blake-hash-linux-arm64-gnu@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-linux-arm64-gnu/-/blake-hash-linux-arm64-gnu-1.1.0.tgz#1fb5771b0802eaf3e8a62b68c1021d8a977d49c8"
+  integrity sha512-xSoWRzVpSru8or2ULIJxhnemS/2HRD0sU7TyrIHI1Nmvz7SIteGAcgHm1f9pkuksN5McFTwWF/yHHZ6x3NMv9A==
+
+"@napi-rs/blake-hash-linux-arm64-musl@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-linux-arm64-musl/-/blake-hash-linux-arm64-musl-1.1.0.tgz#bd1f5bf88f9a4d8b20d2c5c8d11b32eb3aa21ea4"
+  integrity sha512-tJXQ4iYKnZ+ycVGAaK38GaQFbm5YXMXgYU/c1+YYtVHtvZb4Jm7PhivaY3Lj9pdkz7cqH3BnemeUHqizzIW/fQ==
+
+"@napi-rs/blake-hash-linux-x64-gnu@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-linux-x64-gnu/-/blake-hash-linux-x64-gnu-1.1.0.tgz#4eac6d01cbc62904269c611b17200992196401cb"
+  integrity sha512-cQexihviZd7rt1KjT0OiFv9GwA0ttDCcUMXzrB6FfN69H3T6AJLUBrVdo7PiWIGVQ+DqAKKHEZpXvxKQbanImw==
+
+"@napi-rs/blake-hash-linux-x64-musl@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-linux-x64-musl/-/blake-hash-linux-x64-musl-1.1.0.tgz#1055e10e4a0298c31319df8bc311fe557c50b131"
+  integrity sha512-oJeFACMLXkWKEbrncBqcnlSpIg+zUDc5DD/XqxVKweC9t523LgQnBo3WNw3iRM3TqGpigWoQb/B5vpIp3lPF3Q==
+
+"@napi-rs/blake-hash-win32-arm64-msvc@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-win32-arm64-msvc/-/blake-hash-win32-arm64-msvc-1.1.0.tgz#f75896e1b270f18a80823969d6cb5282502a9270"
+  integrity sha512-WO6G4z4y0tj1p0r6AO2IZvtzLmUMphfFPv2Xd1holnB2VQG43GH2uhjJaMoRpzKNGp1pb0diuw64rhAGEIhG4g==
+
+"@napi-rs/blake-hash-win32-ia32-msvc@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-win32-ia32-msvc/-/blake-hash-win32-ia32-msvc-1.1.0.tgz#017004c310d82a0bfb313a893d2cd42e184732e1"
+  integrity sha512-+7LYw71UOh6bxRWed9ZRz6zeqKqtq5g644ng4ScVyvq5pYzr8s58dXcxXLRJ1w4NI0bNiwAq/Xi5LczTYEpzkQ==
+
+"@napi-rs/blake-hash-win32-x64-msvc@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash-win32-x64-msvc/-/blake-hash-win32-x64-msvc-1.1.0.tgz#1368302a9cea3a0b3b501919094b7965ef97c4a7"
+  integrity sha512-hCdiAKb61J3W4s1MwJiwHEJ8bzwLQc7Mwed9xU5Sn/7qVTc4KrSeGgin09gqfTYZUJ0R5b4G4TQ94OZ+vyXxAQ==
+
+"@napi-rs/blake-hash@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@napi-rs/blake-hash/-/blake-hash-1.1.0.tgz#465b7457f468fc88c99f281ee0994f6df69fe5a3"
+  integrity sha512-PsS/Vhp0StswkG+d75st0AQn1MULaMoKkVSJu2zHg+lLQEl0i81I5YqEPX9RaBnD6USgnzOUD1/TUlkpRa2BPg==
+  optionalDependencies:
+    "@napi-rs/blake-hash-android-arm64" "1.1.0"
+    "@napi-rs/blake-hash-darwin-arm64" "1.1.0"
+    "@napi-rs/blake-hash-darwin-x64" "1.1.0"
+    "@napi-rs/blake-hash-freebsd-x64" "1.1.0"
+    "@napi-rs/blake-hash-linux-arm-gnueabihf" "1.1.0"
+    "@napi-rs/blake-hash-linux-arm64-gnu" "1.1.0"
+    "@napi-rs/blake-hash-linux-arm64-musl" "1.1.0"
+    "@napi-rs/blake-hash-linux-x64-gnu" "1.1.0"
+    "@napi-rs/blake-hash-linux-x64-musl" "1.1.0"
+    "@napi-rs/blake-hash-win32-arm64-msvc" "1.1.0"
+    "@napi-rs/blake-hash-win32-ia32-msvc" "1.1.0"
+    "@napi-rs/blake-hash-win32-x64-msvc" "1.1.0"
+
 "@napi-rs/triples@1.0.3":
   version "1.0.3"
   resolved "https://registry.npmjs.org/@napi-rs/triples/-/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"
